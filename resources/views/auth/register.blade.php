@@ -42,7 +42,7 @@
                             <label for="phone" class="col-md-4 col-form-label text-md-right">{{ __('Phone') }}</label>
 
                             <div class="col-md-6">
-                                <input id="phone" type="phone" class="form-control @error('phone') is-invalid @enderror" name="phone" required autocomplete="phone">
+                                <input id="phone" type="tel" class="form-control @error('phone') is-invalid @enderror" name="phone" required autocomplete="phone">
 
                                 @error('phone')
                                 <span class="invalid-feedback" role="alert">
@@ -55,7 +55,7 @@
                             <label for="birthday" class="col-md-4 col-form-label text-md-right">{{ __('Birthday') }}</label>
 
                             <div class="col-md-6">
-                                <input id="birthday" type="birthday" class="form-control @error('birthday') is-invalid @enderror" name="birthday" required autocomplete="phone number">
+                                <input id="birthday" type="birthday" class="form-control @error('birthday') is-invalid @enderror" name="birthday" required autocomplete="birthday">
 
                                 @error('birthday')
                                 <span class="invalid-feedback" role="alert">
